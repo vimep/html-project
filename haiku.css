@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+button {
+    cursor: pointer;
+    border-radius: 6px;
+    width: 50%;
+    height: 3vh;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: hsl(0, 0%, 40%);
+    margin: 30px;
+    margin-left: 25%;
+}
+
+button:hover {
+    color: orangered;
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 50%);
+}
+
+.libreria, .spazio, .stella {
+    margin: 10px;
+    width: 15%;
+    margin-left: 12%;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#generatore {
+    background-color: hsl(0, 0%, 60%);
+    border-radius: 50px;
+    padding: 2%;
+    border: 5px solid orangered;
+    opacity: 80%;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: gray;
+}
